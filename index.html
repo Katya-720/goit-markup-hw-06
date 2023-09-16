@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,7 +43,16 @@
             </li>
           </ul>
         </nav>
-
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="burger-icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="header-contacts">
           <ul class="header-contacts-list list">
             <li>
@@ -149,13 +158,16 @@
           </ul>
         </div>
       </section>
-
       <section class="team-background-color section">
         <div class="container">
           <h2 class="section-head-title">Our Team</h2>
           <ul class="team-cards list">
             <li class="team-card">
               <img
+                srcset="
+                  ./images/our-team/mark-guerrero.jpg    1x,
+                  ./images/our-team/mark-guerrero@2x.jpg 2x
+                "
                 src="./images/our-team/mark-guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -219,6 +231,10 @@
 
             <li class="team-card">
               <img
+                srcset="
+                  ./images/our-team/tom-ford.jpg    1x,
+                  ./images/our-team/tom-ford@2x.jpg 2x
+                "
                 src="./images/our-team/tom-ford.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -282,6 +298,10 @@
 
             <li class="team-card">
               <img
+                srcset="
+                  ./images/our-team/camalia-garcia.jpg    1x,
+                  ./images/our-team/camalia-garcia@2x.jpg 2x
+                "
                 src="./images/our-team/camalia-garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -345,6 +365,10 @@
 
             <li class="team-card">
               <img
+                srcset="
+                  ./images/our-team/daniel-wilson.jpg    1x,
+                  ./images/our-team/daniel-wilson@2x.jpg 2x
+                "
                 src="./images/our-team/daniel-wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -417,6 +441,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/banking-app.jpg          360w,
+                    ./images/our-portfolio/desktop/banking-app@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/banking-app-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/banking-app-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/banking-app-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/banking-app-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/banking-app.jpg"
                   alt="Banking App"
                   width="360"
@@ -437,6 +470,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/cashless-payment.jpg          360w,
+                    ./images/our-portfolio/desktop/cashless-payment@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/cashless-payment-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/cashless-payment-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/cashless-payment-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/cashless-payment-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/cashless-payment.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -457,6 +499,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/meditation-app.jpg          360w,
+                    ./images/our-portfolio/desktop/meditation-app@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/meditation-app-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/meditation-app-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/meditation-app-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/meditation-app-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/meditation-app.jpg"
                   alt="Meditation App"
                   width="360"
@@ -477,6 +528,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/taxi-service.jpg          360w,
+                    ./images/our-portfolio/desktop/taxi-service@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/taxi-service-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/taxi-service-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/taxi-service-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/taxi-service-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/taxi-service.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -497,6 +557,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/screen-illustrations.jpg          360w,
+                    ./images/our-portfolio/desktop/screen-illustrations@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/screen-illustrations-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/screen-illustrations-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/screen-illustrations-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/screen-illustrations-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/screen-illustrations.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -517,6 +586,15 @@
             <li class="portfolio-card">
               <div class="portfolio-list-img-wrapper">
                 <img
+                  srcset="
+                    ./images/our-portfolio/desktop/online-courses.jpg          360w,
+                    ./images/our-portfolio/desktop/online-courses@2x.jpg       720w,
+                    ./images/our-portfolio/tablet/online-courses-tablet.jpg    356w,
+                    ./images/our-portfolio/tablet/online-courses-tablet@2x.jpg 712w,
+                    ./images/our-portfolio/mobile/online-courses-mobile.jpg    288w,
+                    ./images/our-portfolio/mobile/online-courses-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/our-portfolio/online-courses.jpg"
                   alt="Online Courses"
                   width="360"
@@ -537,7 +615,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer-background">
       <div class="container container-footer">
         <div class="footer-section">
@@ -648,7 +725,8 @@
     </footer>
 
     <!-- BACKDROP WITH MODAL WINDOW  -->
-    <div class="backdrop is-open">
+
+    <div class="backdrop">
       <div class="modal">
         <button class="form-button-close" type="button">
           <svg
@@ -766,6 +844,96 @@
           <button class="contact-form-button-submit" type="submit">Send</button>
         </form>
       </div>
+    </div>
+
+    <!-- MOBILE MENU  -->
+
+    <div class="mobile-menu">
+      <button class="form-button-close" type="button">
+        <svg
+          class="form-button-close-icon"
+          width="8"
+          height="8"
+          aria-label="form-button-close-icon"
+        >
+          <use href="./images/icons.svg#icon-form-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-link-item">
+          <a class="mobile-menu-link curent link" href="./index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-link-item">
+          <a class="mobile-menu-link link" href="">Portfolio</a>
+        </li>
+        <li class="mobile-menu-link-item">
+          <a class="mobile-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <address class="mobile-menu-contacts">
+        <ul class="mobile-menu-contacts-list list">
+          <li>
+            <a class="mobile-menu-contact link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-menu-contact link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="team-card-social-buttons mobile-menu-social-buttons list">
+        <li class="team-card-social-background">
+          <a href="" class="team-card-social-item link">
+            <svg
+              class="team-card-social-button"
+              width="24"
+              height="24"
+              aria-label="instagram"
+            >
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-card-social-background">
+          <a href="" class="team-card-social-item link">
+            <svg
+              class="team-card-social-button"
+              width="24"
+              height="24"
+              aria-label="twitter"
+            >
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-card-social-background">
+          <a href="" class="team-card-social-item link">
+            <svg
+              class="team-card-social-button"
+              width="24"
+              height="24"
+              aria-label="facebook"
+            >
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-card-social-background">
+          <a href="" class="team-card-social-item link">
+            <svg
+              class="team-card-social-button"
+              width="24"
+              height="24"
+              aria-label="linkedin"
+            >
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
