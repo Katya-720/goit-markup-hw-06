@@ -114,16 +114,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-background {
-    padding: 96px 108px;
-  }
-
   .container-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    width: 584px;
   }
 
   .footer-logo {

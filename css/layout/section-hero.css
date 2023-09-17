@@ -66,8 +66,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/section-hero-background/background-hero-tablet.jpg);
-    margin-bottom: 36px;
+      url('/images/section-hero-background/background-hero-tablet.jpg');
     padding: 112px 0;
   }
 
@@ -97,9 +96,14 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/section-hero-background/background-hero-desktop.jpg);
+      url('/images/section-hero-background/background-hero-desktop.jpg');
     margin-bottom: 36px;
     padding: 188px 0;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    max-width: 496px;
   }
 }
 

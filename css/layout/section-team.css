@@ -36,6 +36,10 @@
   .team-card {
     width: calc((100% - 24px) / 2);
   }
+
+  .section-title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1158px) {
