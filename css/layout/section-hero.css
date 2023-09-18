@@ -6,7 +6,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('/images/section-hero-background/background-hero-mobile.jpg');
+    url('../../images/section-hero-background/background-hero-mobile.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -22,7 +22,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/section-hero-background/background-hero-mobile@2x.jpg');
+      url('../../images/section-hero-background/background-hero-mobile@2x.jpg');
   }
 }
 
@@ -66,7 +66,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/section-hero-background/background-hero-tablet.jpg');
+      url('../../images/section-hero-background/background-hero-tablet.jpg');
     padding: 112px 0;
   }
 
@@ -85,7 +85,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/section-hero-background/background-hero-tablet@2x.jpg');
+      url('../../images/section-hero-background/background-hero-tablet@2x.jpg');
   }
 }
 
@@ -96,7 +96,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/section-hero-background/background-hero-desktop.jpg');
+      url('../../images/section-hero-background/background-hero-desktop.jpg');
     margin-bottom: 36px;
     padding: 188px 0;
   }
@@ -116,6 +116,6 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('/images/section-hero-background/background-hero-desktop@2x.jpg');
+      url('../../images/section-hero-background/background-hero-desktop@2x.jpg');
   }
 }
