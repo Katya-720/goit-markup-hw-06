@@ -149,5 +149,6 @@
   .container-footer {
     align-items: baseline;
     justify-content: space-between;
+    width: 100%;
   }
 }

@@ -64,6 +64,10 @@
   .portfolio-card {
     width: calc((100% - 24px) / 2);
   }
+
+  .section-title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
