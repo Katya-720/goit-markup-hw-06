@@ -30,11 +30,8 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
-    padding: 0 108px;
-  }
-
-  .team-card {
-    width: calc((100% - 24px) / 2);
+    width: 584px;
+    margin: 0 auto;
   }
 
   .section-title.section-title-tablet {
@@ -46,6 +43,7 @@
   .team-cards {
     gap: 24px;
     padding: 0;
+    width: 100%;
   }
 
   .team-card {
